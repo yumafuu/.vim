@@ -88,3 +88,9 @@ repo = 'simeji/winresizer'
 
 [[plugins]]
 repo = 'tpope/vim-endwise'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'tpope/vim-repeat'

@@ -13,6 +13,7 @@ set smartcase
 set title
 set list
 set nobackup
+set background=
 set noswapfile
 set cursorline
 set cursorcolumn
