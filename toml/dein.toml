@@ -2,6 +2,12 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'tpope/vim-commentary'
+
+[[plugins]]
 repo = 'Shougo/deoplete.nvim'
 hook_add = 'let g:deoplete#enable_at_startup = 1'
 
@@ -16,21 +22,23 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'Shougo/neosnippet-snippets'
-
-[[plugins]]
-repo = 'tpope/vim-commentary'
-
-[[plugins]]
-repo = 'cohama/lexima.vim'
-
-[[plugins]]
 repo = 'fatih/vim-go'
 hook_add = '''
+  let g:go_highlight_functions = 1
+  let g:go_highlight_methods = 1
+  let g:go_highlight_structs = 1
+  let g:go_highlight_operators = 1
+  let g:go_highlight_function_parameters = 1
+  let g:go_highlight_function_calls = 1
+  let g:go_highlight_fields = 1
+  let g:go_highlight_variable_declarations = 1
+  let g:go_highlight_variable_assignments = 1
   let g:go_fmt_command = "goimports"
   let g:go_def_mapping_enabled = 0
   let g:go_doc_keywordprg_enabled = 0
 '''
+[[plugins]]
+repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'autozimu/LanguageClient-neovim'
@@ -61,3 +69,12 @@ build = './install --all'
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'
+
+[[plugins]]
+repo = 'kana/vim-operator-user'
+
+[[plugins]]
+repo = 'kana/vim-operator-replace'
+hook_add = '''
+  map <Space>r <Plug>(operator-replace)
+'''

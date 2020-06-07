@@ -1,6 +1,7 @@
 let mapleader="_"
 let g:EasyMotion_do_mapping = 0
-nmap <Space><Space> <Plug>(easymotion-overwin-f)
+nmap m <Plug>(easymotion-overwin-f)
+nmap <Space>v :source ~/.config/nvim/init.vim<CR>
 
 syntax on
 colorscheme molokai
