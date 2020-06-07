@@ -37,8 +37,12 @@ hook_add = '''
   let g:go_def_mapping_enabled = 0
   let g:go_doc_keywordprg_enabled = 0
 '''
+
 [[plugins]]
 repo = 'cohama/lexima.vim'
+hook_add = '''
+  g:lexima_enable_endwise_rule = 1
+'''
 
 [[plugins]]
 repo = 'autozimu/LanguageClient-neovim'
@@ -78,3 +82,9 @@ repo = 'kana/vim-operator-replace'
 hook_add = '''
   map <Space>r <Plug>(operator-replace)
 '''
+
+[[plugins]]
+repo = 'simeji/winresizer'
+
+[[plugins]]
+repo = 'tpope/vim-endwise'

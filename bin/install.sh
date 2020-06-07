@@ -1,7 +1,7 @@
 echo "install my nvim conf"
 
 if [ $NVIM = "" ] ; then
-  export $NVIM="/Users/`whoami`/.config/nvim"
+  export NVIM="/Users/`whoami`/.config/nvim"
 fi
 
 mkdir -p $NVIM && cd $NVIM
