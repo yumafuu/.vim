@@ -1,9 +1,10 @@
 #!bash
 
 if [ $NVIM = "" ] ; then
-  export $NVIM=/Users/yuma/.config/nvim
+  export $NVIM="/Users/`whoami`/.config/nvim"
 fi
 
+mkdir -p $NVIM
 cd $NVIM
 now=$(date "+%Y/%m/%d %H:%M:%S")
 
