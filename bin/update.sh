@@ -1,4 +1,4 @@
-#!bash
+#!/bin/sh
 path="/Users/`whoami`/.config/nvim"
 
 cd $path
