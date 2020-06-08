@@ -17,9 +17,6 @@ hook_add = '''
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 '''
 
-[[plugins]]
-repo = 'cohama/lexima.vim'
-hook_add = 'g:lexima_enable_endwise_rule = 1'
 
 [[plugins]]
 repo = 'autozimu/LanguageClient-neovim'
@@ -36,8 +33,10 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'cespare/vim-toml'
+repo = 'cohama/lexima.vim'
 
+[[plugins]]
+repo = 'cespare/vim-toml'
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'

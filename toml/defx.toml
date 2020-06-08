@@ -78,5 +78,5 @@ hook_add = '''
         \ 'resume': 1,
         \ })
 
-  nnoremap <silent> <Leader>f :<C-u> Defx <CR>
+  nnoremap <silent> <Leader>f :set autochdir<CR>:<C-u> Defx <CR>
 '''

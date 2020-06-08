@@ -46,6 +46,7 @@ nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
 nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
+nnoremap <C-g> :tabe<CR>:Files<CR>
 
 "dein Scripts-----------------------------
 if &compatible
