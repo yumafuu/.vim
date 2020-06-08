@@ -40,9 +40,7 @@ hook_add = '''
 
 [[plugins]]
 repo = 'cohama/lexima.vim'
-hook_add = '''
-  g:lexima_enable_endwise_rule = 1
-'''
+hook_add = 'g:lexima_enable_endwise_rule = 1'
 
 [[plugins]]
 repo = 'autozimu/LanguageClient-neovim'
@@ -159,9 +157,7 @@ repo = 'kana/vim-operator-user'
 
 [[plugins]]
 repo = 'kana/vim-operator-replace'
-hook_add = '''
-  map <Space>r <Plug>(operator-replace)
-'''
+hook_add = 'map <Space>r <Plug>(operator-replace)'
 
 [[plugins]]
 repo = 'simeji/winresizer'
