@@ -4,6 +4,10 @@ nmap m <Plug>(easymotion-overwin-f)
 nmap <Space>v :source ~/.config/nvim/init.vim<CR>
 au FileType ruby nnoremap <space>b obinding.pry<ESC>
 
+" * not to move next word
+nnoremap <silent><expr> * v:count ? '*'
+\ : ':sil exe "keepj norm! *" <Bar> call winrestview(' . string(winsaveview()) . ')<CR>'
+
 syntax on
 colorscheme molokai
 set helplang=ja

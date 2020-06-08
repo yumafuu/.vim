@@ -1,4 +1,4 @@
-echo "install my nvim conf"
+echo "install nvim conf"
 
 path="$HOME/.config/nvim"
 mkdir -p $path 
