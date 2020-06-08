@@ -1,9 +1,9 @@
 echo "install my nvim conf"
 
 path="$HOME/.config/nvim"
-mkdir -p $path && cd $NVIM
+mkdir -p $path 
 
 # todo
-# install dependencies
+# install nvim & python3
 
 git clone https://github.com/YumaFuu/nvim.git $path

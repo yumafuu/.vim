@@ -1,5 +1,5 @@
 #!/bin/sh
-path="/Users/`whoami`/.config/nvim"
+path="$HOME/.config/nvim"
 
 cd $path
 now=$(date "+%Y/%m/%d %H:%M:%S")

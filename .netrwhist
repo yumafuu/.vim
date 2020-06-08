@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/yuma/ruby/mos/mos-api/db/kids'
+let g:netrw_dirhist_6='/Users/yuma/ruby/mos/mos-api/db/kids/csv'
 let g:netrw_dirhist_5='/Users/yuma/.config/nvim/dein'
 let g:netrw_dirhist_4='/Users/yuma/.config/nvim/toml'
 let g:netrw_dirhist_3='/Users/yuma/.config/nvim'

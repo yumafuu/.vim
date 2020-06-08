@@ -2,6 +2,7 @@ let mapleader="_"
 let g:EasyMotion_do_mapping = 0
 nmap m <Plug>(easymotion-overwin-f)
 nmap <Space>v :source ~/.config/nvim/init.vim<CR>
+au FileType ruby nnoremap <space>b obinding.pry<ESC>
 
 syntax on
 colorscheme molokai
