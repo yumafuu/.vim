@@ -54,48 +54,35 @@ nnoremap <C-p> gT<CR>
 nnoremap <C-g> :tabe<CR>:Files<CR>
 
 "dein Scripts-----------------------------
+
 if &compatible
   set nocompatible               " Be iMproved
 endif
+
 
 " Required:
 set runtimepath+=/Users/yuma/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/yuma/.config/nvim/dein')
-  call dein#begin('/Users/yuma/.config/nvim/dein')
+if dein#load_state('~/.config/nvim/dein')
+  call dein#begin('~/.config/nvim/dein')
+  call dein#add('~/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
 
-  " Let dein manage dein
-  " Required:
-  call dein#add('/Users/yuma/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
-
-  let s:toml_dir  = $HOME . '/.config/nvim/toml'
-  let s:toml      = s:toml_dir . '/dein.toml'
-  let s:defx      = s:toml_dir . '/defx.toml'
-  let s:vimgo      = s:toml_dir . '/vim-go.toml'
-  let s:lazy_toml = s:toml_dir . '/dein_lazy.toml'
-
-  call dein#load_toml(s:toml,      {'lazy': 0})
-  call dein#load_toml(s:defx,      {'lazy': 0})
-  call dein#load_toml(s:vimgo,      {'lazy': 0})
-  call dein#load_toml(s:lazy_toml, {'lazy': 1})
-
-  " Add or remove your plugins here like this:
-  "call dein#add('Shougo/neosnippet.vim')
-  "call dein#add('Shougo/neosnippet-snippets')
-
-  " Required:
+  let s:plugin = '~/.config/nvim/toml/plugin.toml'
+  let s:dark_powers = '~/.config/nvim/toml/dark_powers.toml'
+  call dein#load_toml(s:plugin, {'lazy': 0})
+  call dein#load_toml(s:dark_powers, {'lazy': 0})
   call dein#end()
   call dein#save_state()
 endif
 
 " Required:
-filetype plugin indent on
-syntax enable
 
-" If you want to install not installed plugins on startup.
 if dein#check_install()
   call dein#install()
 endif
+
+syntax enable
+filetype plugin indent on
 
 "End dein Scripts-------------------------
