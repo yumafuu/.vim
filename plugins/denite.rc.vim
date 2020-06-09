@@ -1,11 +1,11 @@
-nnoremap <silent><C-d>a :<C-u>Denite file buffer -split=floating file:new<CR>
-nnoremap <silent><C-d>b :<C-u>Denite buffer -split=floating file:new<CR>
-nnoremap <silent><C-d>f :<C-u>Denite file -split=floating file:new<CR>
-nnoremap <silent><C-d>r :<C-u>Denite file/rec -split=floating file:new<CR>
-nnoremap <silent><C-d>gr :<C-u>Denite grep -buffer-name=search<CR>
-nnoremap <silent><C-d>, :<C-u>DeniteCursorWord grep -buffer-name=search line<CR>
-nnoremap <silent><C-d>gs :<C-u>Denie -resume -buffer-name=search<CR>
-nnoremap <silent><C-d>c :<C-u>Denite command_history -split=floating<CR>
+nnoremap <silent><C-i>a :<C-u>Denite file buffer -split=floating file:new<CR>
+nnoremap <silent><C-i>b :<C-u>Denite buffer -split=floating file:new<CR>
+nnoremap <silent><C-i>f :<C-u>Denite file -split=floating file:new<CR>
+nnoremap <silent><C-i>r :<C-u>Denite file/rec -split=floating file:new<CR>
+nnoremap <silent><C-i>c :<C-u>Denite command_history -split=floating<CR>
+nnoremap <silent><C-i>, :<C-u>DeniteCursorWord grep -buffer-name=search line<CR>
+nnoremap <silent><C-i>gr :<C-u>Denite grep -buffer-name=search<CR>
+nnoremap <silent><C-i>gs :<C-u>Denie -resume -buffer-name=search<CR>
 
 autocmd FileType denite call s:denite_my_settings()
 function! s:denite_my_settings() abort
@@ -17,6 +17,8 @@ function! s:denite_my_settings() abort
   \ denite#do_map('do_action', 'split')
   nnoremap <silent><buffer><expr> v
   \ denite#do_map('do_action', 'vsplit')
+  nnoremap <silent><buffer><expr> t
+  \ denite#do_map('do_action', 'tabedit')
   nnoremap <silent><buffer><expr> d
   \ denite#do_map('do_action', 'delete')
   nnoremap <silent><buffer><expr> p

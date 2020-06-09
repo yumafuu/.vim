@@ -8,7 +8,6 @@ au FileType ruby nnoremap <space>b obinding.pry<ESC>
 nnoremap <silent><expr> * v:count ? '*'
 \ : ':sil exe "keepj norm! *" <Bar> call winrestview(' . string(winsaveview()) . ')<CR>'
 
-syntax on
 colorscheme molokai
 set helplang=ja
 set nu
