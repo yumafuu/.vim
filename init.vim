@@ -54,16 +54,11 @@ nnoremap <C-p> gT<CR>
 nnoremap <C-g> :tabe<CR>:Files<CR>
 
 "dein Scripts-----------------------------
-
 if &compatible
-  set nocompatible               " Be iMproved
+  set nocompatible
 endif
 
-
-" Required:
 set runtimepath+=/Users/yuma/.config/nvim/dein/repos/github.com/Shougo/dein.vim
-
-" Required:
 if dein#load_state('~/.config/nvim/dein')
   call dein#begin('~/.config/nvim/dein')
   call dein#add('~/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
@@ -76,13 +71,10 @@ if dein#load_state('~/.config/nvim/dein')
   call dein#save_state()
 endif
 
-" Required:
-
 if dein#check_install()
   call dein#install()
 endif
 
 syntax enable
 filetype plugin indent on
-
 "End dein Scripts-------------------------
