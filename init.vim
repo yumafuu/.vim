@@ -59,9 +59,11 @@ if dein#load_state('~/.config/nvim/dein')
   call dein#add('~/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
 
   let s:plugin = '~/.config/nvim/toml/plugin.toml'
+  let s:lang = '~/.config/nvim/toml/lang.toml'
   let s:dark_powers = '~/.config/nvim/toml/dark_powers.toml'
-  call dein#load_toml(s:plugin, {'lazy': 0})
   call dein#load_toml(s:dark_powers, {'lazy': 0})
+  call dein#load_toml(s:lang, {'lazy': 0})
+  call dein#load_toml(s:plugin, {'lazy': 0})
   call dein#end()
   call dein#save_state()
 endif

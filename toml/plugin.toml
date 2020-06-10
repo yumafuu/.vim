@@ -1,14 +1,4 @@
 [[plugins]]
-repo = 'autozimu/LanguageClient-neovim'
-build = 'bash install.sh'
-rev = 'next'
-hook_add = 'source ~/.config/nvim/plugins/LanguageClient-neovim.rc.vim'
-
-[[plugins]]
-repo = 'fatih/vim-go'
-hook_add = 'source ~/.config/nvim/plugins/vim-go.rc.vim'
-
-[[plugins]]
 repo = 'cohama/lexima.vim'
 
 [[plugins]]
@@ -48,18 +38,3 @@ repo = 'tpope/vim-commentary'
 
 [[plugins]]
 repo = 'mattn/vim-sonictemplate'
-
-[[plugins]]
-repo = 'rust-lang/rust.vim'
-hook_add = 'source ~/.config/nvim/plugins/rust.vim.rc.vim'
-
-[[plugins]]
-repo = 'rust-lang/rustfmt'
-
-[[plugins]]
-repo = 'sebastianmarkow/deoplete-rust'
-
-[[plugins]]
-repo = 'racer-rust/vim-racer'
-on_ft = 'rust'
-hook_add = 'source ~/.config/nvim/plugins/vim-racer.rc.vim'
