@@ -1,11 +1,11 @@
-nnoremap <silent><C-i>a :<C-u>Denite file buffer -split=floating file:new<CR>
+" nnoremap <silent><C-i>a :<C-u>Denite file buffer -split=floating file:new<CR>
 nnoremap <silent><C-i>b :<C-u>Denite buffer -split=floating file:new<CR>
 nnoremap <silent><C-i>f :<C-u>Denite file -split=floating file:new<CR>
 nnoremap <silent><C-i>r :<C-u>Denite file/rec -split=floating file:new<CR>
 nnoremap <silent><C-i>c :<C-u>Denite command_history -split=floating<CR>
-nnoremap <silent><C-i>, :<C-u>DeniteCursorWord grep -buffer-name=search line<CR>
+nnoremap <silent><C-i>a :<C-u>DeniteCursorWord grep -buffer-name=search line<CR>
 nnoremap <silent><C-i>gr :<C-u>Denite grep -buffer-name=search<CR>
-nnoremap <silent><C-i>gs :<C-u>Denie -resume -buffer-name=search<CR>
+nnoremap <silent><C-i>gs :<C-u>Denite -resume -buffer-name=search<CR>
 
 autocmd FileType denite call s:denite_my_settings()
 function! s:denite_my_settings() abort

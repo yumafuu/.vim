@@ -19,3 +19,9 @@ repo = 'rust-lang/rustfmt'
 repo = 'racer-rust/vim-racer'
 on_ft = 'rust'
 hook_add = 'source ~/.config/nvim/plugins/vim-racer.rc.vim'
+
+[[plugins]]
+repo =  'tomlion/vim-solidity'
+
+[[plugins]]
+repo = 'mattn/emmet-vim'

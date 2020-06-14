@@ -1,6 +1,15 @@
 let mapleader="_"
-let g:EasyMotion_do_mapping = 0
-nmap m <Plug>(easymotion-overwin-f)
+
+nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
+nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
+nnoremap <C-n> gt<CR>
+nnoremap <C-p> gT<CR>
+nnoremap <C-j> :bprev<CR>
+nnoremap <C-k> :bnext<CR>
+nnoremap <C-g> :tabe<CR>:Files<CR>
+imap <C-h> <Left>
+imap <C-l> <Right>
+
 nmap <Space>v :source ~/.config/nvim/init.vim<CR>
 au FileType ruby nnoremap <space>b obinding.pry<ESC>
 
@@ -46,11 +55,6 @@ set wildmenu
 set wildmode=full
 language en_US
 filetype plugin on
-nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
-nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
-nnoremap <C-n> gt<CR>
-nnoremap <C-p> gT<CR>
-nnoremap <C-g> :tabe<CR>:Files<CR>
 
 "dein Scripts-----------------------------
 set runtimepath+=/Users/yuma/.config/nvim/dein/repos/github.com/Shougo/dein.vim
