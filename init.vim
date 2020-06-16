@@ -2,10 +2,14 @@ let mapleader="_"
 
 nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
+nnoremap <Space><Space> :set relativenumber!<CR><Esc>
+
+
+nnoremap <Space>P :set norelativenumber<CR>:se nonu<Esc>
 nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
-nnoremap <C-j> :bprev<CR>
-nnoremap <C-k> :bnext<CR>
+au FileType !defx nnoremap <C-j> :bprev<CR>
+au FileType !defx nnoremap <C-k> :bnext<CR>
 nnoremap <C-g> :tabe<CR>:Files<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>

@@ -6,6 +6,7 @@ repo = 'cespare/vim-toml'
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+hook_add = 'source ~/.config/nvim/rc/fzf.rc.vim'
 
 [[plugins]]
 repo = 'junegunn/fzf'
