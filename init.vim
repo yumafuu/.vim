@@ -57,7 +57,9 @@ language en_US
 filetype plugin on
 
 "dein Scripts-----------------------------
-set runtimepath+=/Users/yuma/.config/nvim/dein/repos/github.com/Shougo/dein.vim
+let deinpath = "~/.config/nvim/dein/repos/github.com/Shougo/dein.vim"
+execute "set runtimepath+=" . deinpath
+
 if dein#load_state('~/.config/nvim/dein')
   call dein#begin('~/.config/nvim/dein')
   call dein#add('~/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
