@@ -6,8 +6,8 @@ nnoremap <Space><Space> :set relativenumber!<CR><Esc>
 nnoremap <Space>P :set norelativenumber<CR>:se nonu<Esc>
 nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
-au FileType !defx nnoremap <C-j> :bprev<CR>
-au FileType !defx nnoremap <C-k> :bnext<CR>
+nnoremap <C-h> :bprev<CR>
+nnoremap <C-l> :bnext<CR>
 nnoremap <C-g> :tabe<CR>:Files<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
