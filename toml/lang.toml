@@ -25,3 +25,9 @@ repo =  'tomlion/vim-solidity'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
+
+[[plugins]]
+repo = 'mattn/webapi-vim'
+
+[[plugins]]
+repo = 'vim-syntastic/syntastic'

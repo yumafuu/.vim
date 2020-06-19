@@ -3,8 +3,6 @@ let mapleader="_"
 nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
 nnoremap <Space><Space> :set relativenumber!<CR><Esc>
-
-
 nnoremap <Space>P :set norelativenumber<CR>:se nonu<Esc>
 nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
@@ -20,6 +18,9 @@ au FileType ruby nnoremap <space>b obinding.pry<ESC>
 " * not to move next word
 nnoremap <silent><expr> * v:count ? '*'
 \ : ':sil exe "keepj norm! *" <Bar> call winrestview(' . string(winsaveview()) . ')<CR>'
+
+" rm spaces
+autocmd BufWritePre * :%s/\s\+$//ge
 
 colorscheme molokai
 set helplang=ja
