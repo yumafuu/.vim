@@ -3,7 +3,6 @@ let mapleader="_"
 nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
 nnoremap <Space><Space> :set relativenumber!<CR><Esc>
-nnoremap <Space>P :set norelativenumber<CR>:se nonu<Esc>
 nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
 nnoremap <C-h> :bprev<CR>
@@ -12,7 +11,10 @@ nnoremap <C-g> :tabe<CR>:Files<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
 
-nmap <Space>v :source ~/.config/nvim/init.vim<CR>
+" reload init.vim
+nmap <Space>v :so ~/.config/nvim/init.vim<CR>
+
+" binding.pry
 au FileType ruby nnoremap <space>b obinding.pry<ESC>
 
 " * not to move next word
@@ -67,7 +69,7 @@ execute "set runtimepath+=" . deinpath
 
 if dein#load_state('~/.config/nvim/dein')
   call dein#begin('~/.config/nvim/dein')
-  call dein#add('~/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
+  execute "call dein#add('" . deinpath . "')"
 
   let s:plugin = '~/.config/nvim/toml/plugin.toml'
   let s:lang = '~/.config/nvim/toml/lang.toml'
