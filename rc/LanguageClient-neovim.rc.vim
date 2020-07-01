@@ -2,7 +2,7 @@ set hidden
 let g:LanguageClient_serverCommands = {
     \ 'go': ['gopls'],
     \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
-    \ 'python': ['/usr/local/bin/pyls'],
+    \ 'python': ['pyls'],
     \ 'rust': ['rustup', 'run', 'nightly', 'rls'],
     \ }
 let g:LanguageClient_loadSettings = 1

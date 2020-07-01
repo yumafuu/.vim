@@ -39,4 +39,7 @@ repo = 'tpope/vim-repeat'
 repo = 'tpope/vim-commentary'
 
 [[plugins]]
+repo = 'tpope/vim-abolish'
+
+[[plugins]]
 repo = 'mattn/vim-sonictemplate'
