@@ -1,16 +1,26 @@
 [[plugins]]
-repo = 'autozimu/LanguageClient-neovim'
-build = 'bash install.sh'
-rev = 'next'
-hook_add = 'source ~/.config/nvim/rc/LanguageClient-neovim.rc.vim'
+repo = 'prabirshrestha/vim-lsp'
+hook_add = 'source ~/.config/nvim/rc/vim-lsp.vim'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'prabirshrestha/async.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete-lsp.vim'
 
 [[plugins]]
 repo = 'fatih/vim-go'
-hook_add = 'source ~/.config/nvim/rc/vim-go.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/vim-go.vim'
 
 [[plugins]]
 repo = 'rust-lang/rust.vim'
-hook_add = 'source ~/.config/nvim/rc/rust.vim.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/rust.vim.vim'
 
 [[plugins]]
 repo = 'rust-lang/rustfmt'
@@ -18,7 +28,7 @@ repo = 'rust-lang/rustfmt'
 [[plugins]]
 repo = 'racer-rust/vim-racer'
 on_ft = 'rust'
-hook_add = 'source ~/.config/nvim/rc/vim-racer.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/vim-racer.vim'
 
 [[plugins]]
 repo =  'tomlion/vim-solidity'
@@ -31,3 +41,10 @@ repo = 'mattn/webapi-vim'
 
 [[plugins]]
 repo = 'vim-syntastic/syntastic'
+
+[[plugins]]
+repo = 'ruby-formatter/rufo-vim'
+hook_add = 'source ~/.config/nvim/rc/rufo-vim.vim'
+
+[[plugins]]
+repo = 'chrisbra/csv.vim'

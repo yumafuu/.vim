@@ -1,0 +1,6 @@
+{
+  "name": "",
+  "dependencies": {
+    "vim-language-server": "^2.0.1"
+  }
+}

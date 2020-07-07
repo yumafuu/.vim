@@ -1,0 +1,6 @@
+{
+  "name": "",
+  "dependencies": {
+    "vscode-json-languageserver": "^1.2.3"
+  }
+}

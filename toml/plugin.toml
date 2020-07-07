@@ -6,7 +6,7 @@ repo = 'cespare/vim-toml'
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
-hook_add = 'source ~/.config/nvim/rc/fzf.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/fzf.vim'
 
 [[plugins]]
 repo = 'junegunn/fzf'
@@ -14,7 +14,7 @@ build = './install --all'
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'
-hook_add = 'source ~/.config/nvim/rc/easymotion.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/easymotion.vim'
 
 [[plugins]]
 repo = 'kana/vim-operator-user'

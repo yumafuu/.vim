@@ -2,24 +2,16 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = 'let g:deoplete#enable_at_startup = 1'
-
-[[plugins]]
 repo = 'Shougo/defx.nvim'
-hook_add = 'source ~/.config/nvim/rc/defx.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/defx.vim'
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
-hook_add = 'source ~/.config/nvim/rc/denite.rc.vim'
-
-[[plugins]]
-repo = 'Shougo/deol.nvim'
-hook_add = 'source ~/.config/nvim/rc/deol.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/denite.vim'
 
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
-hook_add = 'source ~/.config/nvim/rc/neosnippet.rc.vim'
+hook_add = 'source ~/.config/nvim/rc/neosnippet.vim'
