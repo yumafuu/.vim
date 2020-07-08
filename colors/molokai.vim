@@ -161,8 +161,8 @@ if &t_Co > 255
    hi DiffText                    ctermbg=102 cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
-   hi Error           ctermfg=219 ctermbg=89
-   hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
+   hi Error           ctermfg=88 ctermbg=89
+   hi ErrorMsg        ctermfg=88 ctermbg=16    cterm=bold
    hi Exception       ctermfg=118               cterm=bold
    hi Float           ctermfg=135
    hi FoldColumn      ctermfg=67  ctermbg=16
@@ -247,7 +247,7 @@ if &t_Co > 255
        hi DiffDelete      ctermfg=125 ctermbg=233
 
        hi Directory       ctermfg=154               cterm=bold
-       hi Error           ctermfg=222 ctermbg=233
+       hi Error           ctermfg=88 ctermbg=233
        hi Exception       ctermfg=154               cterm=bold
        hi Float           ctermfg=141
        hi Function        ctermfg=154
@@ -274,3 +274,4 @@ end
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
+hi goExtIfErr  ctermfg=darkGray

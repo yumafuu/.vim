@@ -10,4 +10,3 @@ let s:nvim = "~/.config/nvim/"
 for f in s:list
   exe("so " . s:nvim . f . ".vim")
 endfor
-hi Error ctermfg=Black
