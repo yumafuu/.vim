@@ -1,3 +1,5 @@
+let mapleader="_"
+
 nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
 nnoremap <Space><Space> :set relativenumber!<CR><Esc>
@@ -12,7 +14,7 @@ imap <C-l> <Right>
 " reload init.vim
 nmap <Space>v :so ~/.config/nvim/init.vim<CR>
 
-" binding.pry
+" break
 au FileType ruby nnoremap <space>b obinding.pry<ESC>
 au FileType python nnoremap <space>b oimport ipdb<ESC>oipdb.set_trace()<ESC>
 

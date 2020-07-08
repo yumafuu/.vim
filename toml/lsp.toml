@@ -1,0 +1,15 @@
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+hook_add = 'source ~/.config/nvim/rc/vim-lsp.vim'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'prabirshrestha/async.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete-lsp.vim'

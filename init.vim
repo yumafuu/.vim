@@ -1,7 +1,5 @@
-let mapleader="_"
-
 let s:list = [
-  \ "mappings",
+  \ "mapping",
   \ "basic",
   \ "dein",
   \ ]
