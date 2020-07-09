@@ -3,6 +3,10 @@ repo = 'fatih/vim-go'
 hook_add = 'source ~/.config/nvim/rc/vim-go.vim'
 
 [[plugins]]
+repo = 'sebdah/vim-delve'
+hook_add = 'source ~/.config/nvim/rc/vim-delve.vim'
+
+[[plugins]]
 repo = 'rust-lang/rust.vim'
 hook_add = 'source ~/.config/nvim/rc/rust.vim.vim'
 

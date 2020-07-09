@@ -1,5 +1,6 @@
 let g:go_fmt_command = "goimports"
 let g:go_def_mapping_enabled = 0
+let g:go_gopls_enabled = 0
 let g:go_doc_keywordprg_enabled = 0
 let g:go_highlight_array_whitespace_error = 1
 let g:go_highlight_chan_whitespace_error = 1
@@ -16,5 +17,3 @@ let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 let g:go_highlight_variable_assignments = 1
 let g:go_highlight_variable_declarations = 1
-syn match goExtIfErr "\v^\s*if\s+err\s*\!\=\s*nil\s*\{\s*\_$\_.\s*return.+\_$\_.\s*\}" fold
-hi def link goExtIfErr Comment
