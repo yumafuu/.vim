@@ -1,10 +1,6 @@
-let s:list = [
-  \ "mapping",
-  \ "basic",
-  \ "dein",
-  \ ]
+let mapleader="_"
 
-let s:nvim = "~/.config/nvim/"
-for f in s:list
-  exe("so " . s:nvim . f . ".vim")
+let confs = split(glob("~/.config/nvim/configs/*.vim"), "\n")
+for f in confs
+  exe("so " . f)
 endfor

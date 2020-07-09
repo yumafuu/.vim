@@ -1,5 +1,3 @@
-let mapleader="_"
-
 nnoremap <C-[><C-[> :nohlsearch<CR><Esc>
 nnoremap <C-@><C-@> :nohlsearch<CR><Esc>
 nnoremap <Space><Space> :set relativenumber!<CR><Esc>
