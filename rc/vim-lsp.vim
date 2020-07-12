@@ -12,7 +12,7 @@ highlight LspErrorText ctermfg=white guifg=white ctermbg=red guibg=red
 highlight LspErrorLine ctermfg=white guifg=white ctermbg=darkred guibg=darkred
 highlight LspErrorVirtual ctermfg=black guifg=black ctermbg=darkred guibg=darkred
 
-" highlight LspErrorHighlight ctermfg=black guifg=black ctermbg=blue guibg=blue
+highlight LspErrorHighlight ctermfg=black guifg=black ctermbg=blue guibg=blue
 " highlight LspInformationHighlight ctermfg=white guifg=white ctermbg=darkred guibg=darkred
 " highlight LspWarningHighlight ctermfg=white guifg=white ctermbg=darkred guibg=darkred
 " highlight LspHintHighlight ctermfg=white guifg=white ctermbg=darkred guibg=darkred

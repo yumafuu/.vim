@@ -8,6 +8,7 @@ nnoremap <C-l> :bnext<CR>
 nnoremap <C-g> :tabe<CR>:Files<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
+nnoremap <C-[><C-[> <C-\><C-n>
 
 " reload init.vim
 nmap <Space>v :so ~/.config/nvim/init.vim<CR>
