@@ -30,9 +30,9 @@ repo = 'mattn/webapi-vim'
 [[plugins]]
 repo = 'vim-syntastic/syntastic'
 
-[[plugins]]
-repo = 'ruby-formatter/rufo-vim'
-hook_add = 'source ~/.config/nvim/rc/rufo-vim.vim'
+# [[plugins]]
+# repo = 'ruby-formatter/rufo-vim'
+# hook_add = 'source ~/.config/nvim/rc/rufo-vim.vim'
 
 [[plugins]]
 repo = 'chrisbra/csv.vim'
