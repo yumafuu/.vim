@@ -22,4 +22,4 @@ nnoremap <silent> gd :LspDefinition<CR>
 nnoremap <silent> gt :LspTypeDefinition<CR>
 nnoremap <silent> <Space>lr :LspRename<CR>
 
- autocmd BufWritePre <buffer> LspDocumentFormatSync
+autocmd BufWritePre <buffer> LspDocumentFormatSync

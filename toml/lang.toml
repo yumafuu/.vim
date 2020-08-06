@@ -36,3 +36,9 @@ repo = 'vim-syntastic/syntastic'
 
 [[plugins]]
 repo = 'chrisbra/csv.vim'
+
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+on_ft = '["markdown", "pandoc.markdown", "rmd"]'
+build = 'sh -c "cd app & yarn install"'
+hook_add = 'source ~/.config/nvim/rc/markdown-preview.nvim.vim'
