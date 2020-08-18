@@ -27,6 +27,9 @@ hook_add = 'map <Space>r <Plug>(operator-replace)'
 repo = 'simeji/winresizer'
 
 [[plugins]]
+repo = 'aserebryakov/vim-todo-lists'
+
+[[plugins]]
 repo = 'tpope/vim-endwise'
 
 [[plugins]]
@@ -40,6 +43,10 @@ repo = 'tpope/vim-commentary'
 
 [[plugins]]
 repo = 'tpope/vim-abolish'
+
+[[plugins]]
+repo = 'tpope/vim-markdown'
+hook_add = 'so ~/.config/nvim/rc/vim-markdown.vim'
 
 [[plugins]]
 repo = 'mattn/vim-sonictemplate'
