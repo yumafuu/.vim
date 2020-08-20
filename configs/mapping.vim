@@ -13,7 +13,7 @@ imap <C-l> <Right>
 nmap <Space>v :so ~/.config/nvim/init.vim<CR>
 
 " break
-au FileType ruby nnoremap <space>b obinding.pry<CR><ESC>
+au FileType ruby nnoremap <space>b obinding.pry<ESC>
 au FileType python nnoremap <space>b oimport ipdb<ESC>oipdb.set_trace()<ESC>
 
 " * not to move next word
