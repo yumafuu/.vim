@@ -19,3 +19,9 @@ repo = 'thomasfaingnaert/vim-lsp-snippets'
 
 [[plugins]]
 repo = 'thomasfaingnaert/vim-lsp-neosnippet'
+
+[[plugins]]
+repo = "fuenor/JpFormat.vim"
+
+[[plugins]]
+repo = "leafgarland/typescript-vim"
