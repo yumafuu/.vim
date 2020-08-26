@@ -35,6 +35,15 @@ repo = 'vim-syntastic/syntastic'
 # hook_add = 'source ~/.config/nvim/rc/rufo-vim.vim'
 
 [[plugins]]
+repo = 'kana/vim-textobj-user'
+
+[[plugins]]
+repo = 'rhysd/vim-textobj-ruby'
+
+[[plugins]]
+repo = 'osyo-manga/vim-textobj-multiblock'
+
+[[plugins]]
 repo = 'chrisbra/csv.vim'
 
 [[plugins]]
@@ -45,3 +54,5 @@ hook_add = 'source ~/.config/nvim/rc/markdown-preview.nvim.vim'
 
 [[plugins]]
 repo = 'slim-template/vim-slim'
+
+

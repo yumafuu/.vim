@@ -26,8 +26,8 @@ hook_add = 'map <Space>r <Plug>(operator-replace)'
 [[plugins]]
 repo = 'simeji/winresizer'
 
-[[plugins]]
-repo = 'aserebryakov/vim-todo-lists'
+# [[plugins]]
+# repo = 'aserebryakov/vim-todo-lists'
 
 [[plugins]]
 repo = 'tpope/vim-endwise'
