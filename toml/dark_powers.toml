@@ -1,9 +1,9 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-[[plugins]]
-repo = 'Shougo/defx.nvim'
-hook_add = 'source ~/.config/nvim/rc/defx.vim'
+# [[plugins]]
+# repo = 'Shougo/defx.nvim'
+# hook_add = 'source ~/.config/nvim/rc/defx.vim'
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
