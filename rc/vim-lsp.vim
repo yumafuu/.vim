@@ -1,5 +1,6 @@
 let g:lsp_settings_servers_dir = '~/.config/nvim/vim-lsp-settings/servers'
 let g:lsp_signs_error ={'text': '✗'}
+let g:lsp_highlight_references_enabled = 1
 " let g:lsp_highlights_enabled = 0
 " let g:lsp_textprop_enabled = 1
 
