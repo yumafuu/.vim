@@ -5,9 +5,18 @@ nnoremap <C-n> gt<CR>
 nnoremap <C-p> gT<CR>
 nnoremap <Space>h :bprev<CR>
 nnoremap <Space>l :bnext<CR>
-nnoremap <C-g> :tabe<CR>:Files<CR>
+nnoremap <C-g> :tabe<CR>:call Myfzf()<CR>
+nnoremap <C-z> :call Myfzf()<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
+
+function! Myfzf()
+  if len(system('git rev-parse'))
+    Files
+  else
+    GFiles --exclude-standard --others --cached
+  endif
+endfunction
 
 " reload init.vim
 nmap <Space>v :so ~/.config/nvim/init.vim<CR>

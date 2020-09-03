@@ -55,4 +55,5 @@ hook_add = 'source ~/.config/nvim/rc/markdown-preview.nvim.vim'
 [[plugins]]
 repo = 'slim-template/vim-slim'
 
-
+[[plugins]]
+repo = 'hashivim/vim-terraform'
