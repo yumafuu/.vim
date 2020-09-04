@@ -57,3 +57,4 @@ repo = 'slim-template/vim-slim'
 
 [[plugins]]
 repo = 'hashivim/vim-terraform'
+hook_add = 'source ~/.config/nvim/rc/vim-terraform.vim'
