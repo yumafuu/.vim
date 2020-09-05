@@ -1,14 +1,14 @@
 [[plugins]]
 repo = 'fatih/vim-go'
-hook_add = 'source ~/.config/nvim/rc/vim-go.vim'
+hook_add = 'so ~/.config/nvim/rc/vim-go.vim'
 
 [[plugins]]
 repo = 'sebdah/vim-delve'
-hook_add = 'source ~/.config/nvim/rc/vim-delve.vim'
+hook_add = 'so ~/.config/nvim/rc/vim-delve.vim'
 
 [[plugins]]
 repo = 'rust-lang/rust.vim'
-hook_add = 'source ~/.config/nvim/rc/rust.vim.vim'
+hook_add = 'so ~/.config/nvim/rc/rust.vim.vim'
 
 [[plugins]]
 repo = 'rust-lang/rustfmt'
@@ -16,7 +16,7 @@ repo = 'rust-lang/rustfmt'
 [[plugins]]
 repo = 'racer-rust/vim-racer'
 on_ft = 'rust'
-hook_add = 'source ~/.config/nvim/rc/vim-racer.vim'
+hook_add = 'so ~/.config/nvim/rc/vim-racer.vim'
 
 [[plugins]]
 repo =  'tomlion/vim-solidity'
@@ -32,7 +32,7 @@ repo = 'vim-syntastic/syntastic'
 
 # [[plugins]]
 # repo = 'ruby-formatter/rufo-vim'
-# hook_add = 'source ~/.config/nvim/rc/rufo-vim.vim'
+# hook_add = 'so ~/.config/nvim/rc/rufo-vim.vim'
 
 [[plugins]]
 repo = 'kana/vim-textobj-user'
@@ -50,11 +50,19 @@ repo = 'chrisbra/csv.vim'
 repo = 'iamcco/markdown-preview.nvim'
 on_ft = '["markdown", "pandoc.markdown", "rmd"]'
 build = 'sh -c "cd app & yarn install"'
-hook_add = 'source ~/.config/nvim/rc/markdown-preview.nvim.vim'
+hook_add = 'so ~/.config/nvim/rc/markdown-preview.nvim.vim'
 
 [[plugins]]
 repo = 'slim-template/vim-slim'
 
 [[plugins]]
 repo = 'hashivim/vim-terraform'
-hook_add = 'source ~/.config/nvim/rc/vim-terraform.vim'
+hook_add = 'so ~/.config/nvim/rc/vim-terraform.vim'
+
+[[plugins]]
+repo = 'juliosueiras/vim-terraform-completion'
+
+[[plugins]]
+repo = 'elzr/vim-json'
+hook_add = 'so ~/.config/nvim/rc/vim-json.vim'
+

@@ -72,3 +72,7 @@ hook_add = 'so ~/.config/nvim/rc/vim-markdown.vim'
 
 [[plugins]]
 repo = 'mattn/vim-sonictemplate'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = 'so ~/.config/nvim/rc/indentLine.vim'
