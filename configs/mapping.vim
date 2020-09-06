@@ -6,7 +6,7 @@ nnoremap <C-p> gT<CR>
 nnoremap <Space>h :bprev<CR>
 nnoremap <Space>l :bnext<CR>
 nnoremap <C-g> :tabe<CR>:call Myfzf()<CR>
-nnoremap <C-z> :call Myfzf()<CR>
+nnoremap <Space>g :call Myfzf()<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
 
