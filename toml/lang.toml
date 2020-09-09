@@ -41,9 +41,6 @@ repo = 'kana/vim-textobj-user'
 repo = 'rhysd/vim-textobj-ruby'
 
 [[plugins]]
-repo = 'osyo-manga/vim-textobj-multiblock'
-
-[[plugins]]
 repo = 'chrisbra/csv.vim'
 
 [[plugins]]
@@ -64,5 +61,4 @@ repo = 'juliosueiras/vim-terraform-completion'
 
 [[plugins]]
 repo = 'elzr/vim-json'
-hook_add = 'so ~/.config/nvim/rc/vim-json.vim'
-
+hook_add = "so ~/.config/nvim/rc/vim-json.vim"
