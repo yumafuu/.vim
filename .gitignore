@@ -1,3 +1,4 @@
 dein/
 vim-lsp-settings
 .netrwhist
+.DS_Store
