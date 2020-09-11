@@ -62,3 +62,10 @@ repo = 'juliosueiras/vim-terraform-completion'
 [[plugins]]
 repo = 'elzr/vim-json'
 hook_add = "so ~/.config/nvim/rc/vim-json.vim"
+
+[[plugins]]
+repo = "leafgarland/typescript-vim"
+
+[[plugins]]
+repo = "fuenor/JpFormat.vim"
+
