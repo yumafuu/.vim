@@ -1,7 +1,6 @@
 " colorscheme molokai
 " colorscheme atom-dark
 " colorscheme material-theme
-colorscheme tender
 set background=dark
 set helplang=ja
 set nu
