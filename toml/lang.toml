@@ -69,3 +69,9 @@ repo = "leafgarland/typescript-vim"
 [[plugins]]
 repo = "fuenor/JpFormat.vim"
 
+[[plugins]]
+repo = "uarun/vim-protobuf"
+
+[[plugins]]
+repo = "rhysd/vim-clang-format"
+hook_add = "so ~/.config/nvim/rc/vim-clang-format.vim"
