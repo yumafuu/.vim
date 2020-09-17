@@ -14,25 +14,29 @@ build = './install --all'
 
 # filer
 # ------------
-[[plugins]]
-repo = 'lambdalisue/fern.vim'
-hook_add = 'source ~/.config/nvim/rc/fern.vim'
+# [[plugins]]
+# repo = 'lambdalisue/fern.vim'
+# hook_add = 'source ~/.config/nvim/rc/fern.vim'
 
-[[plugins]]
-repo = 'lambdalisue/glyph-palette.vim'
+# [[plugins]]
+# repo = 'lambdalisue/glyph-palette.vim'
 
-[[plugins]]
-repo = 'ryanoasis/vim-devicons'
+# [[plugins]]
+# repo = 'ryanoasis/vim-devicons'
 
-[[plugins]]
-repo = 'lambdalisue/fern-renderer-devicons.vim'
+# [[plugins]]
+# repo = 'lambdalisue/fern-renderer-devicons.vim'
 
-[[plugins]]
-repo = 'lambdalisue/fern-git-status.vim'
+# [[plugins]]
+# repo = 'lambdalisue/fern-git-status.vim'
 
-[[plugins]]
-repo = 'antoinemadec/FixCursorHold.nvim'
+# [[plugins]]
+# repo = 'antoinemadec/FixCursorHold.nvim'
 # ------------
+
+# [[plugins]]
+repo = "cocopon/vaffle.vim"
+hook_add = 'so ~/.config/nvim/rc/vaffle.vim'
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'

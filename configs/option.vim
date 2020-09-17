@@ -39,3 +39,5 @@ set wildmenu
 set wildmode=full
 language en_US
 filetype plugin on
+
+au BufNewFile,BufRead Dockerfile setf docker
