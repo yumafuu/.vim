@@ -40,4 +40,4 @@ set wildmode=full
 language en_US
 filetype plugin on
 
-au BufNewFile,BufRead Dockerfile setf docker
+set rtp+=/usr/local/opt/fzf
