@@ -15,3 +15,9 @@ repo = 'Shougo/neosnippet-snippets'
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
 hook_add = 'source ~/.config/nvim/rc/neosnippet.vim'
+
+[[plugins]]
+repo = "Shougo/neocomplcache.vim"
+
+[[plugins]]
+repo = "Shougo/neocomplcache-rsense.vim"
