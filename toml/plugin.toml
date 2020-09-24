@@ -80,3 +80,6 @@ repo = 'mattn/vim-sonictemplate'
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 hook_add = 'so ~/.config/nvim/rc/indentLine.vim'
+
+[[plugins]]
+repo  = 'tpope/vim-obsession'
