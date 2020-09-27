@@ -12,29 +12,7 @@ hook_add = 'source ~/.config/nvim/rc/fzf.vim'
 repo = 'junegunn/fzf'
 build = './install --all'
 
-# filer
-# ------------
-# [[plugins]]
-# repo = 'lambdalisue/fern.vim'
-# hook_add = 'source ~/.config/nvim/rc/fern.vim'
-
-# [[plugins]]
-# repo = 'lambdalisue/glyph-palette.vim'
-
-# [[plugins]]
-# repo = 'ryanoasis/vim-devicons'
-
-# [[plugins]]
-# repo = 'lambdalisue/fern-renderer-devicons.vim'
-
-# [[plugins]]
-# repo = 'lambdalisue/fern-git-status.vim'
-
-# [[plugins]]
-# repo = 'antoinemadec/FixCursorHold.nvim'
-# ------------
-
-# [[plugins]]
+[[plugins]]
 repo = "cocopon/vaffle.vim"
 hook_add = 'so ~/.config/nvim/rc/vaffle.vim'
 
@@ -51,9 +29,6 @@ hook_add = 'map <Space>r <Plug>(operator-replace)'
 
 [[plugins]]
 repo = 'simeji/winresizer'
-
-# [[plugins]]
-# repo = 'aserebryakov/vim-todo-lists'
 
 [[plugins]]
 repo = 'tpope/vim-endwise'
