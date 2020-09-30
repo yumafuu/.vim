@@ -7,6 +7,7 @@ nnoremap <Space>h :bprev<CR>
 nnoremap <Space>l :bnext<CR>
 nnoremap <C-g> :tabe<CR>:call Myfzf()<CR>
 nnoremap <Space>g :call Myfzf()<CR>
+nnoremap <Space>p :let @+ = substitute(expand("%:p"), expand("%:t"), "", "g")<CR>
 imap <C-h> <Left>
 imap <C-l> <Right>
 
