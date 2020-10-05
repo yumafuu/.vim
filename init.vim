@@ -1,4 +1,4 @@
-let mapleader="_"
+let mapleader=";"
 colorscheme tender
 
 let confs = split(glob("~/.config/nvim/configs/*.vim"), "\n")
