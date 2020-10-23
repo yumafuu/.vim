@@ -28,7 +28,7 @@ set ignorecase
 set ruler
 set nocompatible
 set autoread
-set clipboard=unnamed
+set clipboard=unnamedplus
 set backspace=indent,eol,start
 set exrc
 set secure
