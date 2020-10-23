@@ -1,10 +1,7 @@
-" colorscheme molokai
-" colorscheme atom-dark
-" colorscheme material-theme
+syntax on
 set background=dark
 set helplang=ja
 set nu
-set relativenumber
 set incsearch
 set smartcase
 set title
@@ -20,7 +17,7 @@ set laststatus=2
 set wildmode=list:longest
 set expandtab
 set tabstop=2
-set shell=/usr/local/bin/zsh
+set shell=/usr/bin/zsh
 set shiftwidth=2
 set list
 set listchars=tab:\▸\-,trail:·,extends:»,precedes:«,nbsp:%
@@ -37,7 +34,6 @@ set exrc
 set secure
 set wildmenu
 set wildmode=full
-language en_US
 filetype plugin on
 
-set rtp+=/usr/local/opt/fzf
+" set rtp+=/usr/local/opt/fzf

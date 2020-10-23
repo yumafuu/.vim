@@ -1,24 +1,26 @@
 [[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
 repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'cespare/vim-toml'
 
 [[plugins]]
+repo = "jacoborus/tender.vim"
+
+[[plugins]]
 repo = 'junegunn/fzf.vim'
-hook_add = 'source ~/.config/nvim/rc/fzf.vim'
+hook_add = 'source ~/.vim/rc/fzf.vim'
 
 [[plugins]]
 repo = 'junegunn/fzf'
 build = './install --all'
 
 [[plugins]]
-repo = "cocopon/vaffle.vim"
-hook_add = 'so ~/.config/nvim/rc/vaffle.vim'
-
-[[plugins]]
 repo = 'easymotion/vim-easymotion'
-hook_add = 'source ~/.config/nvim/rc/easymotion.vim'
+hook_add = 'source ~/.vim/rc/easymotion.vim'
 
 [[plugins]]
 repo = 'kana/vim-operator-user'
@@ -47,14 +49,32 @@ repo = 'tpope/vim-abolish'
 
 [[plugins]]
 repo = 'tpope/vim-markdown'
-hook_add = 'so ~/.config/nvim/rc/vim-markdown.vim'
+hook_add = 'so ~/.vim/rc/vim-markdown.vim'
 
 [[plugins]]
 repo = 'mattn/vim-sonictemplate'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-hook_add = 'so ~/.config/nvim/rc/indentLine.vim'
+hook_add = 'so ~/.vim/rc/indentLine.vim'
 
 [[plugins]]
 repo  = 'tpope/vim-obsession'
+
+[[plugins]]
+repo = "itchyny/calendar.vim"
+
+[[plugins]]
+repo = "skanehira/code2img.vim"
+
+[[plugins]]
+repo = 'mattn/vim-molder'
+hook_add = 'so ~/.vim/rc/vim-molder.vim'
+
+[[plugins]]
+repo = 'mattn/vim-molder-operations'
+
+[[plugins]]
+repo = "tpope/vim-speeddating"
+[[plugins]]
+repo = "jceb/vim-orgmode"

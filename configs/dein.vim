@@ -1,16 +1,17 @@
-let deinbase = "~/.config/nvim/dein/"
+let deinbase = "~/.vim/dein/"
 let deinpath = deinbase . "repos/github.com/Shougo/dein.vim"
-let s:rcbase="~/.config/nvim/rc/"
 
 execute "set runtimepath+=" . deinpath
 if dein#load_state(deinbase)
   call dein#begin(deinbase)
   call dein#add(deinpath)
 
-  let all = split(glob("~/.config/nvim/toml/*.toml"), "\n")
+  let all = split(glob("~/.vim/toml/*.toml"), "\n")
   for f in all
     call dein#load_toml(f, {'lazy': 0})
   endfor
+  call dein#add('roxma/nvim-yarp')
+  call dein#add('roxma/vim-hug-neovim-rpc')
 
   call dein#end()
   call dein#save_state()
