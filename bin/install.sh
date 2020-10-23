@@ -1,6 +1,6 @@
-echo "install nvim conf"
+echo "install .vim"
 
-path="$HOME/.config/nvim"
+path="$HOME/.vim"
 mkdir -p $path
 
 # todo
