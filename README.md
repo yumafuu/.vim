@@ -3,5 +3,5 @@
 
 - mac
 ```
-curl https://raw.githubusercontent.com/YumaFuu/nvim/master/bin/install.sh | sh
+curl https://raw.githubusercontent.com/YumaFuu/.vim/master/bin/install.sh | sh
 ```
