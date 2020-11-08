@@ -22,3 +22,11 @@ if dein#check_install()
 endif
 
 filetype plugin indent on
+let g:dein#auto_recache = 1
+
+function! DeinReload()
+  :call map(dein#check_clean(), "delete(v:val, 'rf')")
+  :call dein#recache_runtimepath()
+endfunction
+command! DeinReload :call DeinReload()
+

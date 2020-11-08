@@ -1,65 +1,71 @@
 [[plugins]]
-repo = 'Shougo/dein.vim'
+repo = "Shougo/dein.vim"
 
 [[plugins]]
-repo = 'cohama/lexima.vim'
+repo = "Shougo/unite.vim"
 
 [[plugins]]
-repo = 'cespare/vim-toml'
+repo = "thinca/vim-unite-history"
+
+[[plugins]]
+repo = "cohama/lexima.vim"
+
+[[plugins]]
+repo = "cespare/vim-toml"
 
 [[plugins]]
 repo = "jacoborus/tender.vim"
 
 [[plugins]]
-repo = 'junegunn/fzf.vim'
-hook_add = 'source ~/.vim/rc/fzf.vim'
+repo = "junegunn/fzf.vim"
+hook_add = "source ~/.vim/rc/fzf.vim"
 
 [[plugins]]
-repo = 'junegunn/fzf'
-build = './install --all'
+repo = "junegunn/fzf"
+build = "./install --all"
 
 [[plugins]]
-repo = 'easymotion/vim-easymotion'
-hook_add = 'source ~/.vim/rc/easymotion.vim'
+repo = "sebdah/vim-delve"
+hook_add = "so ~/.vim/rc/vim-delve.vim"
 
 [[plugins]]
-repo = 'kana/vim-operator-user'
+repo = "kana/vim-operator-user"
 
 [[plugins]]
-repo = 'kana/vim-operator-replace'
-hook_add = 'map <Space>r <Plug>(operator-replace)'
+repo = "kana/vim-operator-replace"
+hook_add = "map <Space>r <Plug>(operator-replace)"
 
 [[plugins]]
-repo = 'simeji/winresizer'
+repo = "simeji/winresizer"
 
 [[plugins]]
-repo = 'tpope/vim-endwise'
+repo = "tpope/vim-endwise"
 
 [[plugins]]
-repo = 'tpope/vim-surround'
+repo = "tpope/vim-surround"
 
 [[plugins]]
-repo = 'tpope/vim-repeat'
+repo = "tpope/vim-repeat"
 
 [[plugins]]
-repo = 'tpope/vim-commentary'
+repo = "tpope/vim-commentary"
 
 [[plugins]]
-repo = 'tpope/vim-abolish'
+repo = "tpope/vim-abolish"
 
 [[plugins]]
-repo = 'tpope/vim-markdown'
-hook_add = 'so ~/.vim/rc/vim-markdown.vim'
+repo = "tpope/vim-markdown"
+hook_add = "so ~/.vim/rc/vim-markdown.vim"
 
 [[plugins]]
-repo = 'mattn/vim-sonictemplate'
+repo = "mattn/vim-sonictemplate"
 
 [[plugins]]
-repo = 'Yggdroot/indentLine'
-hook_add = 'so ~/.vim/rc/indentLine.vim'
+repo = "Yggdroot/indentLine"
+hook_add = "so ~/.vim/rc/indentLine.vim"
 
 [[plugins]]
-repo  = 'tpope/vim-obsession'
+repo  = "tpope/vim-obsession"
 
 [[plugins]]
 repo = "itchyny/calendar.vim"
@@ -68,13 +74,51 @@ repo = "itchyny/calendar.vim"
 repo = "skanehira/code2img.vim"
 
 [[plugins]]
-repo = 'mattn/vim-molder'
-hook_add = 'so ~/.vim/rc/vim-molder.vim'
-
-[[plugins]]
-repo = 'mattn/vim-molder-operations'
+repo = "cocopon/vaffle.vim"
+hook_add = "so ~/.vim/rc/vaffle.vim"
 
 [[plugins]]
 repo = "tpope/vim-speeddating"
+
 [[plugins]]
 repo = "jceb/vim-orgmode"
+
+[[plugins]]
+repo = "ConradIrwin/vim-bracketed-paste"
+
+[[plugins]]
+repo = "ryanoasis/vim-devicons"
+
+[[plugins]]
+repo = "svermeulen/vim-macrobatics"
+hook_add = "so ~/.vim/rc/vim-macrobatics.vim"
+
+[[plugins]]
+repo = "osyo-manga/vim-brightest"
+hook_add = "so ~/.vim/rc/vim-brightest.vim"
+
+[[plugins]]
+repo = "thinca/vim-quickrun"
+hook_add = "so ~/.vim/rc/vim-quickrun.vim"
+
+[[plugins]]
+repo = "markonm/traces.vim"
+
+[[plugins]]
+repo = "AndrewRadev/switch.vim"
+
+[[plugins]]
+repo = "kana/vim-textobj-line"
+
+[[plugins]]
+repo = "rhysd/clever-f.vim"
+
+[[plugins]]
+repo = "skanehira/gh.vim"
+hook_add = "so ~/.vim/rc/gh.vim"
+
+[[plugins]]
+repo = "osyo-manga/vim-sugarpot/"
+
+[[plugins]]
+repo = "tpope/vim-dadbod"

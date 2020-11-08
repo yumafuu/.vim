@@ -1,4 +1,4 @@
-let g:lsp_settings_servers_dir = '~/.config/nvim/servers'
+let g:lsp_settings_servers_dir = '~/.vim/servers'
 let g:lsp_signs_error ={'text': '✗'}
 
 let g:lsp_highlight_references_enabled = 1
@@ -29,6 +29,8 @@ nnoremap <silent> K :LspHover<CR>
 nnoremap <silent> gd :LspDefinition<CR>
 nnoremap <silent> gt :LspTypeDefinition<CR>
 nnoremap <silent> <Space>lr :LspRename<CR>
+nnoremap <silent> <Space>e
+      \ :LspDocumentDiagnostics<CR>
 
 " autocmd BufWritePre <buffer> LspDocumentFormatSync
 nnoremap <space><space> <buffer> LspDocumentFormatSync

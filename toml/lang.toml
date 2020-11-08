@@ -1,60 +1,49 @@
 [[plugins]]
-repo = 'fatih/vim-go'
-hook_add = 'so ~/.vim/rc/vim-go.vim'
+repo = "fatih/vim-go"
+hook_add = "so ~/.vim/rc/vim-go.vim"
 
 [[plugins]]
-repo = 'sebdah/vim-delve'
-hook_add = 'so ~/.vim/rc/vim-delve.vim'
+repo = "rust-lang/rust.vim"
+hook_add = "so ~/.vim/rc/rust.vim.vim"
 
 [[plugins]]
-repo = 'rust-lang/rust.vim'
-hook_add = 'so ~/.vim/rc/rust.vim.vim'
+repo = "rust-lang/rustfmt"
 
 [[plugins]]
-repo = 'rust-lang/rustfmt'
+repo = "racer-rust/vim-racer"
+on_ft = "rust"
+hook_add = "so ~/.vim/rc/vim-racer.vim"
 
 [[plugins]]
-repo = 'racer-rust/vim-racer'
-on_ft = 'rust'
-hook_add = 'so ~/.vim/rc/vim-racer.vim'
+repo =  "tomlion/vim-solidity"
 
 [[plugins]]
-repo =  'tomlion/vim-solidity'
+repo = "mattn/emmet-vim"
 
 [[plugins]]
-repo = 'mattn/emmet-vim'
+repo = "mattn/webapi-vim"
 
 [[plugins]]
-repo = 'mattn/webapi-vim'
-
-# [[plugins]]
-# repo = 'vim-syntastic/syntastic'
-
-# [[plugins]]
-# repo = 'ruby-formatter/rufo-vim'
-# hook_add = 'so ~/.vim/rc/rufo-vim.vim'
+repo = "kana/vim-textobj-user"
 
 [[plugins]]
-repo = 'kana/vim-textobj-user'
+repo = "rhysd/vim-textobj-ruby"
 
 [[plugins]]
-repo = 'rhysd/vim-textobj-ruby'
+repo = "chrisbra/csv.vim"
 
 [[plugins]]
-repo = 'chrisbra/csv.vim'
+repo = "slim-template/vim-slim"
 
 [[plugins]]
-repo = 'slim-template/vim-slim'
+repo = "hashivim/vim-terraform"
+hook_add = "so ~/.vim/rc/vim-terraform.vim"
 
 [[plugins]]
-repo = 'hashivim/vim-terraform'
-hook_add = 'so ~/.vim/rc/vim-terraform.vim'
+repo = "juliosueiras/vim-terraform-completion"
 
 [[plugins]]
-repo = 'juliosueiras/vim-terraform-completion'
-
-[[plugins]]
-repo = 'elzr/vim-json'
+repo = "elzr/vim-json"
 hook_add = "so ~/.vim/rc/vim-json.vim"
 
 [[plugins]]

@@ -7,7 +7,6 @@ set smartcase
 set title
 set list
 set nobackup
-set background=
 set noswapfile
 set cursorline
 set cursorcolumn
@@ -34,6 +33,8 @@ set exrc
 set secure
 set wildmenu
 set wildmode=full
+set encoding=UTF-8
+set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 12
+set splitbelow
+set splitright
 filetype plugin on
-
-" set rtp+=/usr/local/opt/fzf
