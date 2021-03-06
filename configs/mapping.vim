@@ -18,13 +18,12 @@ nnoremap zj <C-w>j
 nnoremap te :execute ":tabe" expand("%:h")<CR>
 inoremap <C-r> <C-r>"
 nnoremap J gJ
+vnoremap <C-m> :Code2img<CR>
 
 nnoremap <Space>a gg=G
-nnoremap <Space>q q:
+nnoremap <Space>q: q:
 nnoremap <Space>v :so ~/.vimrc<CR>
 " nnoremap <leader>x :execute ":term://" expand("%:h")
-" BufEnter *.png,*.jpg exec "! tiv ".expand("%") | :bw
-nnoremap <Space>p :exec "! tiv ".expand("%")<CR>
 
 " break
 au FileType ruby

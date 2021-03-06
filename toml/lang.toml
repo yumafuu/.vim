@@ -1,18 +1,8 @@
 [[plugins]]
 repo = "fatih/vim-go"
-hook_add = "so ~/.vim/rc/vim-go.vim"
-
-[[plugins]]
-repo = "rust-lang/rust.vim"
-hook_add = "so ~/.vim/rc/rust.vim.vim"
-
-[[plugins]]
-repo = "rust-lang/rustfmt"
-
-[[plugins]]
-repo = "racer-rust/vim-racer"
-on_ft = "rust"
-hook_add = "so ~/.vim/rc/vim-racer.vim"
+hook_add = '''
+  so ~/.vim/rc/vim-go.vim
+'''
 
 [[plugins]]
 repo =  "tomlion/vim-solidity"
@@ -37,14 +27,12 @@ repo = "slim-template/vim-slim"
 
 [[plugins]]
 repo = "hashivim/vim-terraform"
-hook_add = "so ~/.vim/rc/vim-terraform.vim"
 
 [[plugins]]
 repo = "juliosueiras/vim-terraform-completion"
 
 [[plugins]]
 repo = "elzr/vim-json"
-hook_add = "so ~/.vim/rc/vim-json.vim"
 
 [[plugins]]
 repo = "leafgarland/typescript-vim"
@@ -57,8 +45,34 @@ repo = "uarun/vim-protobuf"
 
 [[plugins]]
 repo = "rhysd/vim-clang-format"
-hook_add = "so ~/.vim/rc/vim-clang-format.vim"
+hook_add = '''
+  autocmd FileType proto ClangFormatAutoEnable
+'''
 
 [[plugins]]
 repo = "peitalin/vim-jsx-typescript"
-hook_add = "so ~/.vim/rc/vim-jsx-typescript.vim"
+hook_add = '''
+  " dark red
+  hi tsxTagName guifg=#E06C75
+  hi tsxComponentName guifg=#E06C75
+  hi tsxCloseComponentName guifg=#E06C75
+
+  " orange
+  hi tsxCloseString guifg=#F99575
+  hi tsxCloseTag guifg=#F99575
+  hi tsxCloseTagName guifg=#F99575
+  hi tsxAttributeBraces guifg=#F99575
+  hi tsxEqual guifg=#F99575
+
+  " yellow
+  hi tsxAttrib guifg=#F8BD7F cterm=italic
+'''
+
+[[plugins]]
+repo = "posva/vim-vue"
+
+[[plugins]]
+repo = "towolf/vim-helm"
+
+[[plugins]]
+repo = "pocke/rbs.vim"

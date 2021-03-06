@@ -37,4 +37,12 @@ set encoding=UTF-8
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 12
 set splitbelow
 set splitright
+set foldtext=FoldCCtext()
+set foldcolumn=1
+set fillchars=vert:\|
 filetype plugin on
+au BufNewFile,BufRead .pryrc setf ruby
+au BufNewFile,BufRead Steepfile setf ruby
+au BufNewFile,BufRead .env* setf sh
+au BufNewFile,BufRead Dockerfile* setf dockerfile
+

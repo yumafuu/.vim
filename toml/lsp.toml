@@ -1,16 +1,17 @@
 [[plugins]]
 repo = "prabirshrestha/vim-lsp"
-hook_add = "so ~/.vim/rc/vim-lsp.vim"
+hook_add = '''
+  so ~/.vim/rc/vim-lsp.vim
+'''
 
 [[plugins]]
 repo = "mattn/vim-lsp-settings"
 
 [[plugins]]
-repo = "Shougo/neosnippet.vim"
-hook_add = "so ~/.vim/rc/neosnippet.vim"
+repo = "SirVer/ultisnips"
 
 [[plugins]]
-repo = "Shougo/neosnippet-snippets"
+repo = "honza/vim-snippets"
 
 [[plugins]]
 repo = "prabirshrestha/async.vim"
@@ -22,13 +23,4 @@ repo = "prabirshrestha/asyncomplete.vim"
 repo = "prabirshrestha/asyncomplete-lsp.vim"
 
 [[plugins]]
-repo = "prabirshrestha/asyncomplete-neosnippet.vim"
-
-[[plugins]]
-repo = 'thomasfaingnaert/vim-lsp-snippets'
-
-[[plugins]]
-repo = "thomasfaingnaert/vim-lsp-neosnippet"
-
-[[plugins]]
-repo = "honza/vim-snippets"
+repo = "prabirshrestha/asyncomplete-ultisnips.vim"
