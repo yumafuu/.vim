@@ -1,0 +1,13 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["json", "markdown"],
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "eslint.autoFixOnSave": true,
+  "snippets.ultisnips.directories": ["UltiSnips", "gosnippets/UltiSnips"]
+}

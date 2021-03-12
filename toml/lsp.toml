@@ -1,26 +1,32 @@
 [[plugins]]
-repo = "prabirshrestha/vim-lsp"
+repo = "neoclide/coc.nvim"
 hook_add = '''
-  so ~/.vim/rc/vim-lsp.vim
+  so ~/.vim/rc/coc.vim
 '''
 
-[[plugins]]
-repo = "mattn/vim-lsp-settings"
+# [[plugins]]
+# repo = "prabirshrestha/vim-lsp"
+# hook_add = '''
+#   so ~/.vim/rc/vim-lsp.vim
+# '''
 
-[[plugins]]
-repo = "SirVer/ultisnips"
+# [[plugins]]
+# repo = "mattn/vim-lsp-settings"
 
-[[plugins]]
-repo = "honza/vim-snippets"
+# [[plugins]]
+# repo = "SirVer/ultisnips"
 
-[[plugins]]
-repo = "prabirshrestha/async.vim"
+# [[plugins]]
+# repo = "honza/vim-snippets"
 
-[[plugins]]
-repo = "prabirshrestha/asyncomplete.vim"
+# [[plugins]]
+# repo = "prabirshrestha/async.vim"
 
-[[plugins]]
-repo = "prabirshrestha/asyncomplete-lsp.vim"
+# [[plugins]]
+# repo = "prabirshrestha/asyncomplete.vim"
 
-[[plugins]]
-repo = "prabirshrestha/asyncomplete-ultisnips.vim"
+# [[plugins]]
+# repo = "prabirshrestha/asyncomplete-lsp.vim"
+
+# [[plugins]]
+# repo = "prabirshrestha/asyncomplete-ultisnips.vim"
