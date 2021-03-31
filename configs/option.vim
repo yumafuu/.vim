@@ -16,7 +16,8 @@ set laststatus=2
 set wildmode=list:longest
 set expandtab
 set tabstop=2
-set shell=/usr/bin/zsh
+let s:shell=system('which $SHELL')
+set shell=s:shell
 set shiftwidth=2
 set list
 set listchars=tab:\▸\-,trail:·,extends:»,precedes:«,nbsp:%

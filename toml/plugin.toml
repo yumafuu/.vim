@@ -162,3 +162,7 @@ repo = "tpope/vim-pathogen"
 
 [[plugins]]
 repo = "inkarkat/vim-SyntaxRange"
+
+[[plugins]]
+repo = "junegunn/goyo.vim"
+
