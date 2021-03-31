@@ -5,8 +5,6 @@ augroup MyAutoCmd
   autocmd!
 augroup END
 
-let g:shell = system("which $SHELL")
-
 so ~/.vim/configs/dein.vim
 so ~/.vim/configs/mapping.vim
 so ~/.vim/configs/option.vim
