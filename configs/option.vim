@@ -27,7 +27,6 @@ set ignorecase
 set ruler
 set nocompatible
 set autoread
-set clipboard=unnamedplus
 set backspace=indent,eol,start
 set exrc
 set secure
@@ -46,3 +45,8 @@ au BufNewFile,BufRead Steepfile setf ruby
 au BufNewFile,BufRead .env* setf sh
 au BufNewFile,BufRead Dockerfile* setf dockerfile
 
+if has('unix')
+  set clipboard=unnamed
+else
+  set clipboard=unnamedplus
+endif
