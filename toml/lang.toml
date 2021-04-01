@@ -1,8 +1,6 @@
 [[plugins]]
 repo = "fatih/vim-go"
-hook_add = '''
-  so ~/.vim/rc/vim-go.vim
-'''
+hook_add = 'so ~/.vim/rc/vim-go.vim'
 
 [[plugins]]
 repo =  "tomlion/vim-solidity"

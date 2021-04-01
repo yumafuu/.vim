@@ -43,3 +43,4 @@ nnoremap <silent><expr> *
       \ <Bar> call winrestview(
       \ ' .
       \ string(winsaveview()) . ')<CR>'
+

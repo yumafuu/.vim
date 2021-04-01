@@ -3,8 +3,6 @@ repo = "Shougo/dein.vim"
 
 [[plugins]]
 repo = "cohama/lexima.vim"
-hook_add = '''
-'''
 
 [[plugins]]
 repo = "cespare/vim-toml"
@@ -87,9 +85,7 @@ repo = "skanehira/code2img.vim"
 
 [[plugins]]
 repo = "cocopon/vaffle.vim"
-hook_add = '''
-  so ~/.vim/rc/vaffle.vim
-'''
+hook_add = 'so ~/.vim/rc/vaffle.vim'
 
 [[plugins]]
 repo = "tpope/vim-speeddating"
@@ -166,3 +162,6 @@ repo = "inkarkat/vim-SyntaxRange"
 [[plugins]]
 repo = "junegunn/goyo.vim"
 
+[[plugins]]
+repo = "tyru/open-browser.vim"
+hook_add = "nmap go <Plug>(openbrowser-smart-search)"
