@@ -45,7 +45,7 @@ au BufNewFile,BufRead Steepfile setf ruby
 au BufNewFile,BufRead .env* setf sh
 au BufNewFile,BufRead Dockerfile* setf dockerfile
 
-if has('unix')
+if has('mac')
   set clipboard=unnamed
 else
   set clipboard=unnamedplus
