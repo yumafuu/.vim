@@ -1,7 +1,4 @@
 [[plugins]]
-repo = "Shougo/dein.vim"
-
-[[plugins]]
 repo = "cohama/lexima.vim"
 
 [[plugins]]
@@ -62,9 +59,6 @@ hook_add = '''
 
 [[plugins]]
 repo = "mattn/vim-sonictemplate"
-
-[[plugins]]
-repo = "mattn/emmet-vim"
 
 [[plugins]]
 repo = "Yggdroot/indentLine"
@@ -135,9 +129,6 @@ repo = "kana/vim-textobj-line"
 repo = "rhysd/clever-f.vim"
 
 [[plugins]]
-repo = "jceb/vim-orgmode"
-
-[[plugins]]
 repo = "mattn/calendar-vim"
 hook_add = '''
   let g:calendar_diary_extension=".org"
@@ -165,3 +156,6 @@ repo = "junegunn/goyo.vim"
 [[plugins]]
 repo = "tyru/open-browser.vim"
 hook_add = "nmap go <Plug>(openbrowser-smart-search)"
+
+[[plugins]]
+repo = 'mattn/vim-maketable'
