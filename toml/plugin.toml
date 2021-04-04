@@ -155,7 +155,8 @@ repo = "junegunn/goyo.vim"
 
 [[plugins]]
 repo = "tyru/open-browser.vim"
-hook_add = "nmap go <Plug>(openbrowser-smart-search)"
+hook_add = '''
+  nmap go <Plug>(openbrowser-smart-search)"
+  vmap go <Plug>(openbrowser-smart-search)"
+'''
 
-[[plugins]]
-repo = 'mattn/vim-maketable'
