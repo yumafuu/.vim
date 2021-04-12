@@ -20,12 +20,6 @@ repo = "junegunn/fzf"
 build = "./install --all"
 
 [[plugins]]
-repo = "sebdah/vim-delve"
-hook_add = '''
-  autocmd FileType go nmap <silent> <leader>d :DlvToggleBreakpoint<CR>
-'''
-
-[[plugins]]
 repo = "kana/vim-operator-user"
 
 [[plugins]]
