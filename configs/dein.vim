@@ -29,4 +29,3 @@ function! DeinReload()
   :call dein#recache_runtimepath()
 endfunction
 command! DeinReload :call DeinReload()
-

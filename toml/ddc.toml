@@ -1,0 +1,30 @@
+[[plugins]]
+repo = "vim-denops/denops.vim"
+
+[[plugins]]
+repo = "vim-denops/denops-helloworld.vim"
+
+[[plugins]]
+repo = "Shougo/ddc.vim"
+hook_add = 'so ~/.vim/rc/ddc.vim'
+
+[[plugins]]
+repo = "Shougo/ddc-around"
+
+[[plugins]]
+repo = "matsui54/ddc-dictionary"
+
+[[plugins]]
+repo = "Shougo/ddc-matcher_head"
+
+[[plugins]]
+repo = "Shougo/ddc-nextword"
+
+[[plugins]]
+repo = "Shougo/ddc-sorter_rank"
+
+[[plugins]]
+repo = "Shougo/ddc-nvim-lsp"
+
+[[plugins]]
+repo = "LumaKernel/ddc-file"

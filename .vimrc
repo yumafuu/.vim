@@ -1,5 +1,6 @@
 let mapleader="'"
 set runtimepath+=.vim
+set runtimepath^=~/dps-helloworld
 
 augroup MyAutoCmd
   autocmd!

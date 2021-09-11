@@ -23,6 +23,8 @@ vnoremap <C-m> :Code2img<CR>
 nnoremap <Space>a gg=G
 nnoremap <Space>q: q:
 nnoremap <Space>v :so ~/.vimrc<CR>
+nnoremap /  /\v
+vnoremap :s/ :s/\v
 " nnoremap <leader>x :execute ":term://" expand("%:h")
 
 " break

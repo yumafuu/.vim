@@ -52,3 +52,6 @@ repo = "towolf/vim-helm"
 
 [[plugins]]
 repo = "pocke/rbs.vim"
+
+[[plugins]]
+repo = "posva/vim-vue"
